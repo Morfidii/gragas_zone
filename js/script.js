@@ -26,3 +26,11 @@ function photoGallery(elem){
 	console.log(o);
 	console.log(i.src);
 }
+
+function clearGallery(){
+	x = document.getElementById("gallery");
+	i = x.querySelector("img");
+	o = x.querySelector("p");
+	o.innerHTML = "Photo Gallery";
+	i.src = "";
+}

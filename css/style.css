@@ -169,13 +169,14 @@ p {
   display: inline-block;
   position: relative;
   left: 5%;
-  margin: 5% 5%;
+  margin: 10px 5%;
   width: 400px;
   border:solid 2px black;
 }
 
 #gallery{
   width: 70%;
+  height: 400px;
   color: white;
   text-align: center;
   background-color: grey;

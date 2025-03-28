@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gragas Zone v.3</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <header>
+  	<a href="#mainContent" class="offscreen">Skip to main content</a>
+    <nav>
+      <ul>
+        <li>
+        	<img src="images/originalGragas.jpg" alt="Small image of Gragas from League of Legends">
+        	<a href="index.html">Home</a>
+        </li>
+        <li><a href="ourHero.html">Our Hero</a></li>
+        <li><a href="patchNotes.html">Patch Notes</a></li>
+		<li><a href="skinsStore.html">Skins Store</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1 class="centered">Home Page</h1>
+  <h1 class="centered" onclick="hello()">Home Page</h1>
+  <main id="mainContent">
+  	<button style="width: 300px; background-color: brown; color: white; margin: 2% 11.5%;" onclick="openElement()">Open Gallery</button>
+  	<button style="width: 300px; background-color: brown; color: white; margin: 2% 11.5%;" onclick="closeElement()">Close Gallery</button>
+  	<div id="gallery" class="closed">
+  		<img src="originalGragas.jpg">
+  		<p>Photo Gallery</p>
+  	</div>
+  	<img src="images/scubaGragas.jpg" class="gall" alt="Gragas in a diving suit" onclick="photoGallery(this)">
+  	<img src="images/highNoonGragas.jpg" class="gall" alt="Gragas in a hellish Wild West outfit" onclick="photoGallery(this)">
+  	<img src="images/esqGragas.jpg" class="gall" alt="Gragas in a 7 piece suit holding a glass of wine" onclick="photoGallery(this)">
+  	<img src="images/hilbillyGragas.jpg" class="gall" alt="Gragas in a farming suit" onclick="photoGallery(this)">
+  </main >
+  <footer>
+      <h3><a href="https://www.leagueoflegends.com/en-gb/">Play League of Legends</a></h3>
+      <h4>&#169;League of Legends</h4>
+  </footer>
+</body>
+</html>

@@ -168,22 +168,27 @@ p {
 .gall{
   display: inline-block;
   position: relative;
-  left: 5%;
-  margin: 10px 5%;
-  width: 400px;
+  left: 11.5%;
+  margin: 10px 1%;
+  width: 7%;
+}
+
+.gall:focus, .gall:hover, button:focus{
   border:solid 2px black;
 }
 
 #gallery{
   width: 70%;
-  height: 400px;
+  height: 530px;
   color: white;
   text-align: center;
   background-color: grey;
   position: relative;
   left:15%;
+  border:dotted 5px black;
+  line-height: 1px;
 }
 
 #gallery img{
-  width: 70%;
+  width: 100%;
 }

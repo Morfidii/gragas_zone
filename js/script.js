@@ -34,3 +34,12 @@ function clearGallery(){
 	o.innerHTML = "Photo Gallery";
 	i.src = "";
 }
+
+function setTabIndex(){
+	var t = document.getElementsByClassName("gall");
+	for (var i = 0; i < t.length; i++) {
+		t[i].setAttribute("tabindex", "0");
+		console.log("t.tabindex");
+	}
+	
+}

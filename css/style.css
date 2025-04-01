@@ -192,3 +192,11 @@ p {
 #gallery img{
   width: 100%;
 }
+
+@media screen and (min-width: 772px){
+
+}
+
+@media screen and (min-width: 998px){
+  
+}
